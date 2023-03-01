@@ -1,0 +1,32 @@
+body{
+    min-height: 100vh;
+    background-image: url(img/DJOKOVIC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown {
+    position: fixed;
+    margin-top: 4%;
+    margin-left: 33.5%;
+}
+.main{
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 33.5%;
+}
+
+select {
+    font-size: 30px;
+    background-color: #56a3c7;
+    outline: none;
+    border: 3px solid #23546b;
+    color: whitesmoke;
+    font-weight: 600;
+    height: 100px;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hide{
+    visibility: hidden ;
+}
